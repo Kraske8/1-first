@@ -1,0 +1,100 @@
+.row {
+    width: 30%;
+    float: left;
+    padding: 40px;
+    margin-top: 100px;
+    background-color: #F4F3F1;
+}
+
+.form {
+    display: inline-block;
+    width: 100%;
+    }
+    
+    .form-row {
+    display: inline-block;
+    width: 95%;
+    margin-bottom: 30px;
+    }
+    
+    .form-row:last-of-type {
+        margin-bottom: 0;
+        }
+    
+    label {
+    display: inline-block;
+    width: 100%;
+    text-transform: uppercase;
+    color: #999;
+    font-size: 14px;
+    }
+    
+    input {
+    display: inline-block;
+    width: 100%;
+    line-height: 30px;
+    font-size: 15px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    }
+    
+    ::-webkit-input-placeholder {
+        color: #ccc;
+        font-style: italic;
+    }
+
+    .btn {
+    background-color: #EEC338 ;
+    color: #fff;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 1px;
+    border: none;
+    cursor: pointer;
+    }
+
+    .psw-link {
+        background-color: #EEC338 ;
+        color: #fff;
+        padding: 10px;
+        padding-left: 40px;
+        padding-right: 41px;
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+        border-radius: 1px;
+        border: none;
+        cursor: pointer;
+        text-decoration: none;
+        }
+
+        .btn:hover {
+            color: mediumblue;
+        }
+
+        .psw-link:hover {
+            color: mediumblue;
+        }
+
+        .sign-up {
+            background-color: #EEC338 ;
+            color: #fff;
+            padding: 10px;
+            padding-left: 40px;
+            padding-right: 41px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            border-radius: 1px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .sign-up:hover {
+            color: mediumblue;
+        }

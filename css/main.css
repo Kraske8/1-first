@@ -1,0 +1,113 @@
+.container {
+    display: inline-block;
+    width: 100%;
+    }
+
+.background {
+    display: inline-block;
+    width: 1250px;
+    margin: 0 calc(50% - 625px);
+    height: 100vh;
+    background-image: url(/img/background.jpg);
+}
+
+.container .navigation {
+    display: inline-block;     
+    width: 100%;  
+    margin: 0;   
+    padding-top: 10px;
+}
+
+.container .logo {
+    float: left;
+    height: 50px;   
+    margin-top: 15px; 
+    margin-left: 145px; 
+}
+
+.container .navigation .links {
+    float: right;
+    margin-right: 100px;
+}
+
+.container .navigation .links > a {
+    display: block;        
+    float: left;  
+    color: #706F6D;
+    font-size: 12px;
+    font-weight: 800;
+    padding: 5px;
+    margin:  15px;  
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#offers {
+    border-radius: 1px;
+    background-color: #EEC338;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+}
+
+.container .main {
+    display: block;   
+    text-align: left;
+    margin-left: 160px;
+    margin-top: 75px; 
+    width: 35%;
+    top: 30%;
+}
+
+.container .main > h1 {
+font-size: 40px;
+font-family: 'Dancing Script', cursive;
+color: #706F6D;
+font-weight: 100;
+}
+
+.container .main > p {
+    font-size: 15px;
+    line-height: 25px;
+    font-family:sans-serif;
+    color: #706F6D;
+    opacity: 0.8;
+}
+
+#offer-btn {
+    background-color: #EEC338 ;
+    color: #fff;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 1px;
+    border: none;
+    cursor: pointer;
+    }
+
+    #offer-btn:hover {
+        color:blue;
+    }
+
+    #sign-btn {
+    background-color: #F7F7F5 ;
+    color: #868684;
+    padding: 10px;
+    margin-left: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 1px;
+    border: 1px solid white;
+    text-transform:uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    }
+
+    #sign-btn:hover {
+        color:gold;
+    }

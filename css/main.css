@@ -1,4 +1,4 @@
-body,html {
+body {
     height: 100%;
     margin: 0;
 }
@@ -10,7 +10,7 @@ body,html {
 
 .background {
     height: 100vh;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     background-image: url(/img/background.png);
     min-height: 100%;
     position: relative;
@@ -20,43 +20,13 @@ body,html {
     background-attachment: scroll;
 }
 
-.container .navigation {
-    display: inline-block;     
-    width: 100%;  
-    margin: 0;   
-    padding-top: 10px;
-}
-
 .container .logo {
     float: left;
+    position: absolute;
+    top: 0;
     height: 50px;   
-    margin-top: 15px; 
     margin-left: 145px; 
-}
-
-.container .navigation .links {
-    float: right;
-    margin-right: 100px;
-}
-
-.container .navigation .links > a {
-    display: block;        
-    float: left;  
-    color: #706F6D;
-    font-size: 12px;
-    font-weight: 800;
-    padding: 5px;
-    margin:  15px;  
-    text-transform: uppercase;
-    text-decoration: none;
-}
-
-#offers {
-    border-radius: 1px;
-    background-color: #EEC338;
-    color: white;
-    padding: 10px 15px;
-    margin-top: 10px;
+    transform: translate(0%, 15%);
 }
 
 .container .main {
@@ -120,3 +90,79 @@ font-weight: 100;
     #sign-btn:hover {
         color:gold;
     }
+      
+      .navbar{
+        background-color:burlywood;
+        overflow:hidden;
+        height:63px;
+        position: relative;
+      }
+      
+      .navbar a{
+        float:right;
+        display:block;
+        color:#f2f2f2;
+        text-align:center;
+        padding:14px 16px;
+        text-decoration:none;
+        font-size:17px;
+      }
+      
+      .navbar ul{
+        margin:8px 0 0 0;
+        list-style:none;
+        margin-right: 75px;
+      }
+      
+      .navbar a:hover{
+        background-color:#ddd;
+        color:#000;
+      }
+      
+      .side-nav{
+        height:100%;
+        width:0;
+        position:fixed;
+        z-index:1;
+        top:0;
+        left:0;
+        background-color:#111;
+        opacity:0.9;
+        overflow-x:hidden;
+        padding-top:60px;
+        transition:0.5s;
+      }
+      
+      .side-nav a{
+        padding:10px 10px 10px 30px;
+        text-decoration:none;
+        font-size:22px;
+        color:#ccc;
+        display:block;
+        transition:0.3s;
+      }
+      
+      .side-nav a:hover{
+        color:#fff;
+      }
+      
+      .side-nav .btn-close{
+        position:absolute;
+        top:0;
+        right:22px;
+        font-size:36px;
+        margin-left:50px;
+      }
+      
+      @media(max-width:568px){
+        .navbar-nav{display:none}
+      }
+
+      @media(max-width:568px) {
+        .navbar a {float: left;}
+      }
+      
+      @media(min-width:568px){
+        .open-slide{display:none}
+      }
+      
